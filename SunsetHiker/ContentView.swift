@@ -4,14 +4,19 @@ struct ContentView: View {
     @State private var currentTime = Date()
     @State private var timePeriod = TimePeriod.current()
     @StateObject private var locationManager = LocationManager()
+    @StateObject private var backgroundSettings = BackgroundSettings()
     @State private var magicHourData: MagicHourData?
+    @State private var showSettings = false
     
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     var body: some View {
         ZStack {
-            // Dynamic gradient background
-            GradientBackground(timePeriod: timePeriod)
+            // Dynamic gradient background with mountain overlay
+            GradientBackground(
+                timePeriod: timePeriod,
+                mountainImage: backgroundSettings.backgroundStyle.imageName
+            )
             
             VStack(spacing: 0) {
                 // Magic hour visualization at top
@@ -51,6 +56,44 @@ struct ContentView: View {
                 
                 Spacer()
             }
+            
+            // Settings button - bottom center (iPad compatible)
+            VStack(alignment: .center, spacing: 0) {
+                Spacer()
+                Button(action: {
+                    showSettings = true
+                }) {
+                    ZStack {
+                        // Glassmorphism effect
+                        Circle()
+                            .fill(.ultraThinMaterial)
+                            .frame(width: 56, height: 56)
+                        
+                        Circle()
+                            .stroke(
+                                LinearGradient(
+                                    colors: [.white.opacity(0.6), .white.opacity(0.2)],
+                                    startPoint: .topLeading,
+                                    endPoint: .bottomTrailing
+                                ),
+                                lineWidth: 1.5
+                            )
+                            .frame(width: 56, height: 56)
+                        
+                        Image(systemName: "gearshape.fill")
+                            .font(.system(size: 24, weight: .medium))
+                            .foregroundStyle(
+                                LinearGradient(
+                                    colors: [.white, .white.opacity(0.8)],
+                                    startPoint: .top,
+                                    endPoint: .bottom
+                                )
+                            )
+                    }
+                    .shadow(color: .black.opacity(0.2), radius: 10, y: 5)
+                }
+                .padding(.bottom, 30)
+            }
         }
         .onAppear {
             // Request location permission on appear
@@ -71,6 +114,10 @@ struct ContentView: View {
             
             // Update magic hour data every minute
             updateMagicHourData()
+        }
+        .sheet(isPresented: $showSettings) {
+            SettingsView()
+                .environmentObject(backgroundSettings)
         }
     }
     

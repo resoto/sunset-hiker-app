@@ -16,6 +16,8 @@
 		A1000030000000000000001 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000031000000000000001 /* LocationManager.swift */; };
 		A1000032000000000000001 /* MagicHourData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000033000000000000001 /* MagicHourData.swift */; };
 		A1000034000000000000001 /* MagicHourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000035000000000000001 /* MagicHourView.swift */; };
+		A1000038000000000000001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000039000000000000001 /* SettingsView.swift */; };
+		A1000040000000000000001 /* BackgroundSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000041000000000000001 /* BackgroundSettings.swift */; };
 		F3961F872EE27F6F00689A83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3961F852EE27F6E00689A83 /* InfoPlist.strings */; };
 		F3961F8B2EE27F7F00689A83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3961F892EE27F7F00689A83 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
@@ -32,6 +34,8 @@
 		A1000031000000000000001 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		A1000033000000000000001 /* MagicHourData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicHourData.swift; sourceTree = "<group>"; };
 		A1000035000000000000001 /* MagicHourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicHourView.swift; sourceTree = "<group>"; };
+		A1000039000000000000001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A1000041000000000000001 /* BackgroundSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundSettings.swift; sourceTree = "<group>"; };
 		F3961F842EE27F6E00689A83 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = InfoPlist.strings; sourceTree = "<group>"; };
 		F3961F882EE27F7F00689A83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +88,7 @@
 				F3961F862EE27F6E00689A83 /* ja.lproj */,
 				A1000008000000000000001 /* TimeOfDay.swift */,
 				A1000033000000000000001 /* MagicHourData.swift */,
+				A1000041000000000000001 /* BackgroundSettings.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				A1000035000000000000001 /* MagicHourView.swift */,
+				A1000039000000000000001 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,6 +208,8 @@
 				A1000030000000000000001 /* LocationManager.swift in Sources */,
 				A1000032000000000000001 /* MagicHourData.swift in Sources */,
 				A1000034000000000000001 /* MagicHourView.swift in Sources */,
+				A1000038000000000000001 /* SettingsView.swift in Sources */,
+				A1000040000000000000001 /* BackgroundSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
