@@ -1,0 +1,7 @@
+/* 
+  InfoPlist.strings
+  Localization for app display name - English
+*/
+
+"CFBundleDisplayName" = "Sunset Hiker";
+"NSLocationWhenInUseUsageDescription" = "We use your location to calculate accurate sunset times for your area";

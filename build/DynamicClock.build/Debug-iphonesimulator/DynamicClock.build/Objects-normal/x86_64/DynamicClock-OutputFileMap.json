@@ -1,0 +1,59 @@
+{
+  "" : {
+    "diagnostics" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/DynamicClock-primary.dia",
+    "emit-module-dependencies" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/DynamicClock-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/DynamicClock-primary-emit-module.dia",
+    "pch" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/DynamicClock-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/DynamicClock-primary.swiftdeps"
+  },
+  "/Users/resoto/Desktop/ios/DynamicClock/ContentView.swift" : {
+    "const-values" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/ContentView.d",
+    "diagnostics" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/ContentView.dia",
+    "index-unit-output-path" : "/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/ContentView.o",
+    "llvm-bc" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/ContentView.bc",
+    "object" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/ContentView.o",
+    "swift-dependencies" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/ContentView~partial.swiftmodule"
+  },
+  "/Users/resoto/Desktop/ios/DynamicClock/DynamicClockApp.swift" : {
+    "const-values" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/DynamicClockApp.swiftconstvalues",
+    "dependencies" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/DynamicClockApp.d",
+    "diagnostics" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/DynamicClockApp.dia",
+    "index-unit-output-path" : "/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/DynamicClockApp.o",
+    "llvm-bc" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/DynamicClockApp.bc",
+    "object" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/DynamicClockApp.o",
+    "swift-dependencies" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/DynamicClockApp.swiftdeps",
+    "swiftmodule" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/DynamicClockApp~partial.swiftmodule"
+  },
+  "/Users/resoto/Desktop/ios/DynamicClock/GradientBackground.swift" : {
+    "const-values" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/GradientBackground.swiftconstvalues",
+    "dependencies" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/GradientBackground.d",
+    "diagnostics" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/GradientBackground.dia",
+    "index-unit-output-path" : "/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/GradientBackground.o",
+    "llvm-bc" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/GradientBackground.bc",
+    "object" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/GradientBackground.o",
+    "swift-dependencies" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/GradientBackground.swiftdeps",
+    "swiftmodule" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/GradientBackground~partial.swiftmodule"
+  },
+  "/Users/resoto/Desktop/ios/DynamicClock/Models/TimeOfDay.swift" : {
+    "const-values" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/TimeOfDay.swiftconstvalues",
+    "dependencies" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/TimeOfDay.d",
+    "diagnostics" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/TimeOfDay.dia",
+    "index-unit-output-path" : "/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/TimeOfDay.o",
+    "llvm-bc" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/TimeOfDay.bc",
+    "object" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/TimeOfDay.o",
+    "swift-dependencies" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/TimeOfDay.swiftdeps",
+    "swiftmodule" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/TimeOfDay~partial.swiftmodule"
+  },
+  "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/resoto/Desktop/ios/build/DynamicClock.build/Debug-iphonesimulator/DynamicClock.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

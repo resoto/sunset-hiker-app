@@ -1,0 +1,7 @@
+/* 
+  InfoPlist.strings
+  Localization for app display name - Japanese
+*/
+
+"CFBundleDisplayName" = "登山日没時計";
+"NSLocationWhenInUseUsageDescription" = "現在地から正確な日の入り時刻を計算するために位置情報を使用します";
